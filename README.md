@@ -1,5 +1,8 @@
 #  Простой таймер обратного отсчета #
 Инициализация
-    «timer('.timer1');»
+***
+> timer('.timer1');
+***
 Дата до которой будет вестись отсчёт указывается в data-end
-    «<div class="timer timer1" data-end='2020-07-27'>»
+***
+> «<div class="timer timer1" data-end='2020-07-27'>»
