@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="timer timer1" data-end='2020-07-27'>
+        <div class="timer__block">
+            <span id="days"></span>
+            дней
+        </div>
+        <div class="timer__block">
+            <span id="hours"></span>
+            часов
+        </div>
+        <div class="timer__block">
+            <span id="minutes"></span>
+            минут
+        </div>
+        <div class="timer__block">
+            <span id="seconds"></span>
+            секунд
+        </div>
+    </div>
+
+    <div class="timer timer2" data-end='2020-08-27'>
+        <div class="timer__block">
+            <span id="days"></span>
+            дней
+        </div>
+        <div class="timer__block">
+            <span id="hours"></span>
+            часов
+        </div>
+        <div class="timer__block">
+            <span id="minutes"></span>
+            минут
+        </div>
+        <div class="timer__block">
+            <span id="seconds"></span>
+            секунд
+        </div>
+    </div>
+
+    <script src="js/my-timer.js"></script>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            timer('.timer1');
+            timer('.timer2');
+        });
+    </script>
+    
+</body>
+</html>
