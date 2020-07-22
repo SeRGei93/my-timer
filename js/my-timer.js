@@ -39,12 +39,12 @@ const timer = function(node){
             if(t.total <= 0){
                 clearInterval(timeInerval);
             }
-        },
-        setClock = function(){
-            updateClock();
         };
+        // setClock = function(){
+        //     updateClock();
+        // };
 
-        setClock();
+        updateClock();
 };
 
 
